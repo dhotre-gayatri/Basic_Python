@@ -1,0 +1,28 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/davzucky/devcontainers-features-wolfi/python:1": {}
+	}, 
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack",
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight",
+				"PKief.material-product-icons",
+				"SkyLiss.lotus-theme",
+				"DavidAnson.vscode-markdownlint",
+				"vscjava.vscode-java-debug",
+				"Oracle.oracle-java",
+				"georgewfraser.vscode-javac"
+			],
+			"settings": {
+				"workbench.colorTheme":"Lotus Dark" ,
+				"workbench.productIconTheme": "material-product-icons"
+				
+			}
+		}
+	}
+
+}
